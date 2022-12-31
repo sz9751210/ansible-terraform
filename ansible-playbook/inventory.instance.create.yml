@@ -1,0 +1,8 @@
+[localhost]
+localhost internal_ip=127.0.0.1
+
+[creation]
+#{{ hostname }} internal_ip={{ IP }} zone={{ zone }}
+gce-1 internal_ip=10.140.0.40 zone=asia-east1-c
+gce-2 internal_ip=10.140.0.50 zone=asia-east1-c
+
